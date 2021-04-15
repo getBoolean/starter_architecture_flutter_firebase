@@ -1,6 +1,7 @@
 name: starter_architecture_flutter_firebase
 description: A new Flutter project.
 
+publish_to: 'none'
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
 # followed by an optional build number separated by a +.
@@ -17,29 +18,29 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  flutter:
-    sdk: flutter
   alert_dialogs:
     git:
-      url: https://github.com/bizz84/codewithandrea_flutter_packages
+      url: https://github.com/getBoolean/codewithandrea_flutter_packages
       path: packages/alert_dialogs
+  cloud_firestore: ^1.0.0
+  cupertino_icons: ^1.0.2
   custom_buttons:
     git:
-      url: https://github.com/bizz84/codewithandrea_flutter_packages
+      url: https://github.com/getBoolean/codewithandrea_flutter_packages
       path: packages/custom_buttons
   email_password_sign_in_ui:
     git:
-      url: https://github.com/bizz84/codewithandrea_flutter_packages
+      url: https://github.com/getBoolean/codewithandrea_flutter_packages
       path: packages/email_password_sign_in_ui
-  firestore_service:
-    git:
-      url: https://github.com/bizz84/codewithandrea_flutter_packages
-      path: packages/firestore_service
-  cloud_firestore: ^1.0.0
-  cupertino_icons: ^1.0.2
   equatable: ^2.0.0
   firebase_auth: ^1.0.0
   firebase_core: ^1.0.0
+  firestore_service:
+    git:
+      url: https://github.com/getBoolean/codewithandrea_flutter_packages
+      path: packages/firestore_service
+  flutter:
+    sdk: flutter
   flutter_riverpod: ^0.13.0
   flutter_svg: ^0.21.0-nullsafety.0
   intl: ^0.17.0
